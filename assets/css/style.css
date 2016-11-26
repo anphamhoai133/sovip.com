@@ -135,7 +135,7 @@ ul.drop-hover-action li a.action-drop:hover,ul.drop-hover-action li a.action-dro
     border: 1px solid #e8e8e8;
 }
 .search-nm{
-	width: 22%;
+	width: 240px;
 	float: left;
 	margin-right: 30px;
 }
@@ -144,7 +144,7 @@ ul.drop-hover-action li a.action-drop:hover,ul.drop-hover-action li a.action-dro
 	height: 100%;
 }
 .search-price{
-	width: 25%;
+	width: 270px;
 	float: left;
 	margin-right: 30px;
 }
@@ -161,13 +161,27 @@ ul.drop-hover-action li a.action-drop:hover,ul.drop-hover-action li a.action-dro
 #sl-giaca2{
 	width: 200px;	
 }
+.search-sdt{
+        width: 300px;
+    float: left;
+    margin-right: 30px;
+}
 .input_sdt{
-	    line-height: 22px;
+    line-height: 22px;
     border-radius: 4px;
     box-shadow: none;
     outline: none;
-    width: 200px;
+    width: 230px;
     padding: 0px 8px;
+}
+.search-button{
+width: 170px;
+    float: left;
+}
+.btn.btn-search{
+    width: 100px;
+    background-color: #26a1e0;
+    color: #FFF;
 }
 /*Footer*/
 
