@@ -135,21 +135,20 @@ ul.drop-hover-action li a.action-drop:hover,ul.drop-hover-action li a.action-dro
     border: 1px solid #e8e8e8;
 }
 .search-nm{
-	width: 240px;
+	width: 210px;
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
 }
 #sl-nhamang{
-	width: 150px;
+	width: 120px;
 	height: 100%;
 }
 .search-price{
-	width: 270px;
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
 }
-#sl-giaca{
-	width: 170px;
+#sl-from,#sl-to{
+	width: 150px;
 	height: 100%;
 }
 .search-nm label,.search-price label,.search-sdt label{
@@ -159,23 +158,24 @@ ul.drop-hover-action li a.action-drop:hover,ul.drop-hover-action li a.action-dro
 
 }
 #sl-giaca2{
-	width: 200px;	
+	width: 170px;	
 }
 .search-sdt{
-        width: 300px;
+    width: 243px;
     float: left;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 .input_sdt{
     line-height: 22px;
-    border-radius: 4px;
+    border-radius: 3px;
     box-shadow: none;
     outline: none;
-    width: 230px;
-    padding: 0px 8px;
+    width: 177px;
+    padding: 2px 8px;
+    border: 1px solid #aaa;
 }
 .search-button{
-width: 170px;
+    width: 100px;
     float: left;
 }
 .btn.btn-search{

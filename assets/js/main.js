@@ -28,21 +28,39 @@ function set_enscroll_select2 (idname) {
 }
 $(document).ready(function(){
 	if( $(window).width() >= 760){
+        // Select 2
 		$('#sl-nhamang').select2({
   			minimumResultsForSearch: Infinity,
 		});
-		$('#sl-giaca').select2({
-  			minimumResultsForSearch: Infinity,
-		});
+		// $('#sl-giaca').select2({
+        // 		minimumResultsForSearch: Infinity,
+		// });
+        $('#sl-from').select2({
+            minimumResultsForSearch: Infinity,
+        });
+        $('#sl-to').select2({
+            minimumResultsForSearch: Infinity,
+        });
+        // Enscroll Select 2
 		if ( $("#sl-nhamang").length > 0) {
 	        $("#sl-nhamang").on("select2:open", function (e) {
 	            set_enscroll_select2('sl-nhamang');
 	        });
 	    }
-	    if ( $("#sl-giaca").length > 0) {
-	        $("#sl-giaca").on("select2:open", function (e) {
-	            set_enscroll_select2('sl-giaca');
-	        });
-	    }
+	    // if ( $("#sl-giaca").length > 0) {
+	    //     $("#sl-giaca").on("select2:open", function (e) {
+	    //         set_enscroll_select2('sl-giaca');
+	    //     });
+	    // }
+        if ( $("#sl-from").length > 0) {
+            $("#sl-from").on("select2:open", function (e) {
+                set_enscroll_select2('sl-from');
+            });
+        }
+        if ( $("#sl-to").length > 0) {
+            $("#sl-to").on("select2:open", function (e) {
+                set_enscroll_select2('sl-to');
+            });
+        }
 	}
 });
